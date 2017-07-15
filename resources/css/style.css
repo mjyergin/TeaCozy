@@ -1,1 +1,74 @@
+body {
+font-family: helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+opacity: 0.9;
+margin-top: 0;
+}
 
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  z-index: 5
+}
+
+.logo{
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+
+
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  margin-right: 20px;
+  color: seashell;
+}
+
+#mission {
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+}
+.mission-image {
+  display: block;
+  height: 700px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 70px;
+}
+
+.banner {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  position: relative;
+  top: -350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+h4 {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
