@@ -132,25 +132,15 @@ a {
   margin-right: auto;
   margin-top: 50px;
 }
-
-/*This code is a bit of a hack, but the only way I could get Locations properly positioned per the redline.*/
 .location-title {
-  position: relative;
-  left: 44%;
-  /*left: 633px;*/
-  top: 143px;
-}
-
-/* This code I think properly places Locations in the container, but I does not allow me, as far as I can tell, to set the required 14px bottom margin.*/
-/*.location-title {
-  /*display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;*/
-  /*width: 100%;
+  align-items: center;
+  width: 100%;
   text-align: center;
   position: relative;
   top: 50px;
-}*/
+}
 
 .location-image {
   height: 500px;
