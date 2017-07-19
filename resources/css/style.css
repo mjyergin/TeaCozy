@@ -7,6 +7,8 @@ body {
   margin-top: 0;
 }
 
+/*header*/
+
 .header {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -34,6 +36,8 @@ a {
   margin-right: 20px;
   color: seashell;
 }
+
+/*Our Mission Section*/
 
 #mission {
   background: url("../images/img-mission-background.jpg") no-repeat center;
@@ -76,6 +80,8 @@ a {
   margin: 0 0;
 }
 
+/*Store Section - Featured Items*/
+
 .featured-title {
   text-align: center;
   margin-top: 150px;
@@ -115,6 +121,8 @@ a {
   margin-top: 0;
 }
 
+/*Locations Section*/
+
 .locations-container {
   height: 500px;
   width: 1200px;
@@ -148,6 +156,8 @@ a {
 .address:last-of-type {
   margin-right: 0
 }
+
+/*Footer*/
 
 .footer {
   margin-top: 0;
